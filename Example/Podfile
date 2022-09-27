@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'TestKandyLinkBetaSDK_Example' do
+  pod 'TestKandyLinkBetaSDK', :path => '../'
+
+  target 'TestKandyLinkBetaSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
